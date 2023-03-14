@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
 
   public static void main(String[] args) {
+
     // Используем
     boolean flag = false;
     flag = false;
@@ -51,6 +52,7 @@ public class Main {
     if (s instanceof String) {
 
     }
+
     System.out.println("### Value: " + value);
     System.out.println("Hello world!");
 
