@@ -35,5 +35,4 @@ public class MapCollation {
             System.out.println("Не найден товар");
         }
     }
-
 }

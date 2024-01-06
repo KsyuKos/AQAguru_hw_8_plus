@@ -40,6 +40,17 @@ public class ListCollection {
             System.out.println("Хэшкод массива 1 " + arr1HashCode + " и хэшкод массива 2 " + arr2HashCode + " равны");
     }
 
+    public void makeNoticed (String str) {
+        int index = 0;
+        while (index < arrayList.size()) {
+            if (arrayList.get(index).contains(str)) {
+                arrayList.set(index,arrayList.get(index) + "+1");
+                System.out.println("Сделано");
+            }
+            index++;
+        }
+    }
+
     public void clearArr() {
         arrayList.clear();
     }

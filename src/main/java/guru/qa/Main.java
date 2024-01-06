@@ -11,11 +11,14 @@ public class Main {
     myArray.printArr();
     myArray.searchEl("Го");
     myArray.printHashCode();
+    myArray.makeNoticed("Год");
+    myArray.printArr();
 
     ListCollection myArray2 = new ListCollection();
     myArray2.addElAll(new String[]{"Мой", "дневник"});
     myArray2.printArr();
     myArray2.printHashCode();
+
     myArray.compareHash(myArray,myArray2);
 
 
