@@ -59,12 +59,11 @@ public class HumanMain {
       System.out.println(hobby);
     }
 
-    boolean arrayContainJava = true;
+    boolean arrayContainJava = false;
     int index = 0;
     while (!arrayContainJava && index < hobbies.length) {
       if (hobbies[index].equals("Java")) {
         arrayContainJava = true;
-        return;
       }
       index++;
     }
