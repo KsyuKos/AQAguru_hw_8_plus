@@ -7,7 +7,7 @@ public class MapCollation {
     private final HashMap<Integer, String> map = new HashMap<>();
 
     public void addKeyValue(Integer key, String value) {
-        map.put(key, value);
+        this.map.put(key, value);
     }
 
     public void printMap() {
